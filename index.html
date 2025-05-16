@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Doe | Web Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#home" class="logo">John<span>Doe</span></a>
+      <nav>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm John Doe</h1>
+        <h2 class="hero-subtitle">I'm a <span class="typing-effect">Web Developer</span></h2>
+        <p>Passionate about creating beautiful, functional websites and applications that deliver exceptional user experiences.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+          <a href="#projects" class="btn btn-outline">View My Work</a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="/assets/anime guy.jpg" alt="John Doe">
+        </div>
+        <div class="about-content">
+          <h2>About Me</h2>
+          <p>I'm a passionate Web Developer with 5+ years of experience creating innovative web solutions. I specialize in front-end development with a strong focus on creating responsive, user-friendly interfaces.</p>
+          <p>I love turning complex problems into simple, beautiful and intuitive designs. When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through tech blogs.</p>
+          <h3>My Skills</h3>
+          <div class="skills-container">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">UI/UX Design</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Work Experience</h2>
+      </div>
+      <div class="experience-container">
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-title">Senior Front-end Developer</h3>
+              <p class="timeline-subtitle">TechCorp Inc.</p>
+            </div>
+            <p class="timeline-date">2022 - Present</p>
+          </div>
+          <p>Led the development of multiple web applications using React, improving user engagement by 40%. Implemented modern frontend architectures and collaborated with cross-functional teams to deliver high-quality products.</p>
+          <ul>
+            <li>Developed and maintained large scale React applications</li>
+            <li>Mentored junior developers and conducted code reviews</li>
+            <li>Improved website performance by 30% through code optimization</li>
+          </ul>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-title">Web Developer</h3>
+              <p class="timeline-subtitle">Digital Solutions LLC</p>
+            </div>
+            <p class="timeline-date">2024 - 2025</p>
+          </div>
+          <p>Designed and developed responsive websites for clients across various industries. Worked with a team of designers and developers to create user-friendly interfaces and implement new features.</p>
+          <ul>
+            <li>Built responsive websites for 20+ clients</li>
+            <li>Integrated third-party APIs and payment systems</li>
+            <li>Implemented SEO best practices to improve search rankings</li>
+          </ul>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-title">Junior Web Developer</h3>
+              <p class="timeline-subtitle">StartUp Ventures</p>
+            </div>
+            <p class="timeline-date">2018 - 2020</p>
+          </div>
+          <p>Created and maintained websites for small businesses. Collaborated with designers to implement visual elements and ensure responsive design across all devices.</p>
+          <ul>
+            <li>Developed websites using HTML, CSS, and JavaScript</li>
+            <li>Maintained existing websites and implemented new features</li>
+            <li>Collaborated with marketing teams to implement analytics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Projects</h2>
+      </div>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/assets/ecommerce.webp" alt="E-commerce Platform">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-commerce Platform</h3>
+            <p>A fully functional e-commerce platform with product listings, cart functionality, and payment integration.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+              <span class="project-tag">Stripe</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/assets/task.png" alt="Task Management App">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Task Management App</h3>
+            <p>A productivity app for managing tasks with features like drag-and-drop, categories, and reminders.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Redux</span>
+              <span class="project-tag">Firebase</span>
+              <span class="project-tag">Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+        
+       <!-- Project 3 -->
+<div class="project-card">
+  <div class="project-image">
+    <img src="/assets/portfolio.avif" alt="Portfolio Website">
+    <div class="project-overlay">
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="project-content">
+    <h3 class="project-title">Portfolio Website</h3>
+    <p>A responsive personal portfolio website with dark mode, smooth scrolling, and contact form functionality.</p>
+    <div class="project-tags">
+      <span class="project-tag">HTML5</span>
+      <span class="project-tag">CSS3</span>
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">GSAP</span>
+    </div>
+  </div>
+</div>
+
+<!-- Project 4 -->
+<div class="project-card">
+  <div class="project-image">
+    <img src="/assets/weather.jpg" alt="Weather App">
+    <div class="project-overlay">
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="project-content">
+    <h3 class="project-title">Weather App</h3>
+    <p>A weather application that provides real-time weather data for any location with forecast and historical data.</p>
+    <div class="project-tags">
+      <span class="project-tag">JavaScript</span>
+      <span class="project-tag">OpenWeather API</span>
+      <span class="project-tag">Chart.js</span>
+      <span class="project-tag">Geolocation</span>
+    </div>
+  </div>
+</div>
+
+<!-- Project 5 -->
+<div class="project-card">
+  <div class="project-image">
+    <img src="/assets/blog.jpg" alt="Blog Platform">
+    <div class="project-overlay">
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="project-content">
+    <h3 class="project-title">Blog Platform</h3>
+    <p>A full-featured blog platform with user authentication, content management, and commenting system.</p>
+    <div class="project-tags">
+      <span class="project-tag">Next.js</span>
+      <span class="project-tag">Prisma</span>
+      <span class="project-tag">PostgreSQL</span>
+      <span class="project-tag">Auth0</span>
+    </div>
+  </div>
+</div>
+
+<!-- Project 6 -->
+<div class="project-card">
+  <div class="project-image">
+    <img src="/assets/dashboard.png" alt="Social Media Dashboard">
+    <div class="project-overlay">
+      <div class="project-links">
+        <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="project-content">
+    <h3 class="project-title">Social Media Dashboard</h3>
+    <p>A comprehensive dashboard for tracking social media metrics and analytics across multiple platforms.</p>
+    <div class="project-tags">
+      <span class="project-tag">React</span>
+      <span class="project-tag">D3.js</span>
+      <span class="project-tag">Social Media APIs</span>
+      <span class="project-tag">Material UI</span>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Location</h4>
+              <p>Delhi , India</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>john.doe@example.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Phone</h4>
+              <p>+91 9364738433</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <div class="contact-text">
+              <h4>Social Profiles</h4>
+              <div class="social-links">
+                <a href="https://www.google.co.in/" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+      <p>Designed with <i class="fas fa-heart"></i> by John Doe</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <i class="fas fa-moon"></i>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
