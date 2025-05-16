@@ -5,7 +5,7 @@ Description:
 
 A sleek and responsive personal portfolio template built with HTML, CSS, and JavaScript . This template is designed to showcase projects, skills, and contact information in a clean, user-friendly layout. It includes smooth scrolling, animated transitions, a project gallery, and a fully functional contact section.
 
-Features:
+Features: 
 
 Fully responsive design for mobile, tablet, and desktop
 
