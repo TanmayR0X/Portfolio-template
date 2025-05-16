@@ -1,3 +1,5 @@
+Preview - https://tanmayr0x.github.io/Portfolio-template/
+
 Responsive Portfolio Website Template
 This is a modern, fully responsive portfolio website template built using only HTML5, CSS3, and vanilla JavaScript. It is designed to help developers, designers, and creatives showcase their work and skills effectively with a clean and professional look.
 
