@@ -1,30 +1,22 @@
-✨ Portfolio Template Description (for GitHub, Resume, or Portfolio site):
-Title: Modern Responsive Portfolio Website Template
+Portfolio Template
+A clean, modern, and fully responsive portfolio website template built with HTML, CSS, and JavaScript. Perfect for showcasing your projects, skills, and contact information with a simple yet elegant design.
 
-Description:
+Features
+Responsive layout for all screen sizes (mobile, tablet, desktop)
 
-A sleek and responsive personal portfolio template built with HTML, CSS, and JavaScript . This template is designed to showcase projects, skills, and contact information in a clean, user-friendly layout. It includes smooth scrolling, animated transitions, a project gallery, and a fully functional contact section.
+Smooth scrolling navigation
 
-Features: 
+Interactive sections with subtle animations
 
-Fully responsive design for mobile, tablet, and desktop
+Project gallery with hover effects
 
-Smooth scroll navigation with active link highlighting
+Contact form UI (front-end only)
 
-Animated sections on scroll for better user experience
+Clean and semantic code structure for easy customization
 
-Project showcase with hover effects
-
-About, Skills, Projects, and Contact sections
-
-Clean and modern UI with consistent design
-
-Built using semantic HTML and organized CSS 
-
-Tech Stack:
-
+Tech Stack
 HTML5
 
-CSS3 
+CSS3
 
-JavaScript 
+Vanilla JavaScript
